@@ -1,0 +1,27 @@
+@layer components {
+  /* Text Field */
+  .text-field {
+    @apply text-body-compact-02 h-10 w-full text-ellipsis rounded-md bg-white px-4 read-only:bg-gray-100;
+  }
+
+  .text-field:disabled {
+    @apply bg-gray-100 text-gray-100;
+  }
+
+  .text-field[data-text-field='clearable'] {
+    @apply pl-4 pr-10;
+  }
+
+  .text-field-wrapper {
+    @apply relative h-min w-full rounded-md border border-gray-200;
+  }
+
+  .text-field-clear-button {
+    @apply absolute bottom-0 right-0 m-2.5 flex h-5 w-5 items-center justify-center rounded-full p-1 text-gray-500 transition-colors;
+  }
+
+  .text-field-clear-button:hover {
+    @apply bg-gray-100 text-gray-600;
+  }
+  /* Text Field */
+}

@@ -1,0 +1,16 @@
+@layer components {
+  /* Checkbox & Radio */
+  .input-wrapper {
+    @apply relative mb-1 ml-4 flex h-fit w-fit max-w-[calc(100%_-_1rem)] flex-wrap gap-y-1;
+  }
+  .input-wrapper > input {
+    @apply absolute -left-4 top-[0.1875rem];
+  }
+  .input-label {
+    @apply text-body-compact-02 w-full select-none flex-col break-words pl-3 text-gray-900;
+  }
+  .input-sublabel {
+    @apply text-helper-01 line-clamp-4 w-full select-none pl-3 text-gray-500;
+  }
+  /* Checkbox & Radio */
+}

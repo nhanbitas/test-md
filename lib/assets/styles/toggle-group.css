@@ -1,0 +1,27 @@
+@layer components {
+  /* Toggle Group */
+  .toggle-group {
+    @apply text-body-compact-02 relative flex h-10 w-full flex-row items-center justify-start truncate border-gray-200;
+  }
+
+  .toggle-group-item {
+    @apply text-body-compact-02 relative flex h-10 w-full flex-row items-center justify-start gap-2 truncate rounded-none border-y bg-white px-3 py-2 text-gray-500 after:absolute after:right-0 after:top-1/4 after:h-1/2 after:w-[1px] after:bg-gray-200 enabled:hover:text-gray-700 enabled:active:text-black disabled:cursor-not-allowed  disabled:text-gray-200;
+  }
+
+  .toggle-group.icon-only .toggle-group-item {
+    @apply w-fit;
+  }
+
+  .toggle-group-item:first-child {
+    @apply gap-2 rounded-md rounded-r-none border border-r-0;
+  }
+
+  .toggle-group-item:last-child {
+    @apply gap-2 rounded-md rounded-l-none border border-l-0 after:hidden;
+  }
+
+  .toggle-group-item.active {
+    @apply bg-gray-100 text-black before:hidden after:hidden enabled:hover:text-black;
+  }
+  /* Toggle Group */
+}

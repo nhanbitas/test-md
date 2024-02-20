@@ -1,0 +1,31 @@
+@layer components {
+  /* Menu */
+  .menu-item {
+    @apply text-body-compact-02 relative flex h-10 w-full cursor-pointer items-center justify-between truncate after:absolute after:left-1 after:top-[0.125rem] after:-z-10 after:h-9 after:w-[calc(100%_-_0.5rem)] after:rounded-md after:content-[''] hover:after:bg-gray-100;
+  }
+
+  .menu-item.selected {
+    @apply after:bg-blue-50;
+  }
+
+  .menu-item.selected > .menu-item-text {
+    @apply pr-0;
+  }
+
+  .menu-item:not(.selected) > .selected-icon {
+    @apply hidden;
+  }
+
+  .menu-item > img {
+    @apply pointer-events-none -mr-1 ml-4 h-7 w-7 object-cover;
+  }
+
+  .menu-item-text {
+    @apply pointer-events-none w-full truncate pl-4 pr-10 text-left;
+  }
+
+  .selected-icon {
+    @apply icon-square pointer-events-none;
+  }
+  /* Menu */
+}

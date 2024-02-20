@@ -1,0 +1,36 @@
+@layer components {
+  /* Content Navigation */
+  .content-navigation {
+    @apply flex w-full flex-col;
+  }
+
+  .anchor-link.heading {
+    @apply text-heading-compact-02 flex w-full flex-col;
+  }
+
+  .anchor-link.heading > button {
+    @apply ghost flex min-h-[3rem] w-full flex-row items-start py-[0.75rem];
+  }
+
+  .anchor-link:not(.heading) {
+    @apply text-body-compact-02 flex w-full flex-row items-center pl-5;
+  }
+
+  .anchor-link:not(.heading) > button {
+    @apply ghost relative flex min-h-[2.5rem] w-full flex-row items-start border-l py-[0.5rem] transition-colors before:absolute before:-left-px before:top-0 before:h-full before:w-0.5 before:bg-transparent before:transition-colors;
+  }
+
+  .anchor-link:not(.heading).active > button {
+    @apply relative text-orange-500 transition-colors before:bg-orange-500 before:transition-colors hover:text-orange-500;
+  }
+
+  .anchor-link.heading.active > button {
+    @apply text-orange-500 transition-colors hover:text-orange-500;
+  }
+
+  .anchor-link:not(.heading) > button > span,
+  .anchor-link.heading > button > span {
+    @apply line-clamp-2 flex w-full items-start gap-2 px-3 text-left;
+  }
+  /* Content Navigation */
+}

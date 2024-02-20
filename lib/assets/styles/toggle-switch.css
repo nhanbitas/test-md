@@ -1,0 +1,16 @@
+@layer components {
+  /* Toggle Switch */
+  .toggle-switch {
+    @apply flex h-5 w-9 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline-offset-2;
+  }
+  .toggle-switch.on {
+    @apply bg-green-600;
+  }
+  .toggle-switch > span {
+    @apply flex h-[1.125rem] w-[1.125rem] translate-x-0 transform items-center justify-center rounded-full bg-white shadow ring-1 ring-gray-900/5 transition duration-200 ease-in-out;
+  }
+  .toggle-switch.on > span {
+    @apply translate-x-4;
+  }
+  /* Toggle Switch */
+}

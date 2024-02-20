@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64">
+  <path
+    d="M 55.082 48.7 C 22.882 67.3 12.082 47.5 17.882 37.4 C 23.682 27.3 46.282 26.8 46.282 64 C 46.282 101.2 23.682 100.7 17.882 90.6 C 12.082 80.5 23.182 60.7 55.282 79.3 C 87.382 97.9 75.782 117.2 64.082 117.2 C 52.382 117.2 40.682 97.9 72.882 79.3 C 105.082 60.7 115.982 80.5 110.082 90.6 C 104.182 100.7 81.682 101.2 81.682 64 C 81.682 26.8 104.182 27.3 109.982 37.4 C 115.882 47.5 104.882 67.3 72.782 48.7 C 40.682 30.1 52.382 10.8 63.982 10.8 C 75.582 10.8 87.282 30.1 55.082 48.7 Z"
+    fill="none"
+    stroke="#ff5715"
+    stroke-linecap="round"
+    stroke-dashoffset="0"
+    style="transform: scale(0.5)"
+    stroke-width="9">
+    <animate
+      attributeName="stroke-dashoffset"
+      repeatCount="indefinite"
+      dur="2.80s"
+      keyTimes="0; 0.5; 1"
+      values="-586.4989013671875; 56; 56"></animate>
+    <animate
+      attributeName="stroke-dasharray"
+      repeatCount="indefinite"
+      dur="2.80s"
+      keyTimes="0; 0.5; 1"
+      values="0 642.4989013671875; 642.4989013671875 0; 0 642.4989013671875"></animate>
+  </path>
+</svg>

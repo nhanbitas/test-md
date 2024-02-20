@@ -1,0 +1,52 @@
+@layer components {
+  .tree-navigation {
+    @apply flex w-full flex-col;
+  }
+  .tree-navigation-item {
+    @apply text-body-compact-02 relative flex w-full flex-col items-start before:absolute before:bottom-0 before:left-4 before:h-[calc(100%_-_2.5rem)] before:border-l before:border-gray-200;
+  }
+
+  .tree-navigation-item:not(.expanded) {
+    @apply before:content-none;
+  }
+
+  .tree-navigation-item > *:not(button) {
+    @apply mx-6 w-[calc(100%_-_1.5rem)];
+  }
+
+  .tree-navigation-item-button {
+    @apply ghost flex w-full flex-row items-start justify-start rounded-md bg-transparent pr-4 transition-all;
+  }
+
+  .tree-navigation-item-button > svg {
+    @apply mx-2 my-3 h-4 w-4 transform transition-all;
+  }
+
+  .tree-navigation-item-button:not(.terminal) > svg:hover {
+    @apply rounded-md bg-gray-200 text-gray-700;
+  }
+
+  .tree-navigation-item-button.active:not(.terminal) > svg:hover {
+    @apply rounded-md bg-orange-100 text-orange-500;
+  }
+
+  .tree-navigation-item-button.active {
+    @apply bg-orange-50;
+  }
+
+  .tree-navigation-item-button > span {
+    @apply my-[0.5625rem] line-clamp-4 w-full text-left;
+  }
+
+  .tree-navigation-item-button.active > svg {
+    @apply text-orange-500;
+  }
+
+  .tree-navigation-item.expanded > .tree-navigation-item-button:not(.terminal) > svg {
+    @apply rotate-90;
+  }
+
+  .tree-navigation-item-button.active > span {
+    @apply text-orange-500;
+  }
+}
