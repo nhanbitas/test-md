@@ -1,17 +1,17 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./lib/assets/scripts/opera-components/_global.js":
+/***/ "./src/assets/scripts/opera-components/_global.js":
 /*!********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/_global.js ***!
+  !*** ./src/assets/scripts/opera-components/_global.js ***!
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _instance__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_instance */ "./lib/assets/scripts/opera-components/_instance.js");
-/* harmony import */ var _toast__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toast */ "./lib/assets/scripts/opera-components/toast.js");
-/* harmony import */ var _tooltip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tooltip */ "./lib/assets/scripts/opera-components/tooltip.js");
+/* harmony import */ var _instance__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_instance */ "./src/assets/scripts/opera-components/_instance.js");
+/* harmony import */ var _toast__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toast */ "./src/assets/scripts/opera-components/toast.js");
+/* harmony import */ var _tooltip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tooltip */ "./src/assets/scripts/opera-components/tooltip.js");
 
 
 
@@ -30,9 +30,9 @@ window.Opera = {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/_instance.js":
+/***/ "./src/assets/scripts/opera-components/_instance.js":
 /*!**********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/_instance.js ***!
+  !*** ./src/assets/scripts/opera-components/_instance.js ***!
   \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -43,33 +43,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   makeInstances: () => (/* binding */ makeInstances),
 /* harmony export */   uiInstance: () => (/* binding */ uiInstance)
 /* harmony export */ });
-/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accordion */ "./lib/assets/scripts/opera-components/accordion.js");
-/* harmony import */ var _breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breadcrumb */ "./lib/assets/scripts/opera-components/breadcrumb.js");
-/* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./button */ "./lib/assets/scripts/opera-components/button.js");
-/* harmony import */ var _checkbox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./checkbox */ "./lib/assets/scripts/opera-components/checkbox.js");
-/* harmony import */ var _content_navigation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./content-navigation */ "./lib/assets/scripts/opera-components/content-navigation.js");
-/* harmony import */ var _date_picker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./date-picker */ "./lib/assets/scripts/opera-components/date-picker.js");
-/* harmony import */ var _chip__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./chip */ "./lib/assets/scripts/opera-components/chip.js");
-/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dropdown */ "./lib/assets/scripts/opera-components/dropdown.js");
-/* harmony import */ var _fieldset__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fieldset */ "./lib/assets/scripts/opera-components/fieldset.js");
-/* harmony import */ var _form__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./form */ "./lib/assets/scripts/opera-components/form.js");
-/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modal */ "./lib/assets/scripts/opera-components/modal.js");
-/* harmony import */ var _number_input__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./number-input */ "./lib/assets/scripts/opera-components/number-input.js");
-/* harmony import */ var _overflow_menu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./overflow-menu */ "./lib/assets/scripts/opera-components/overflow-menu.js");
-/* harmony import */ var _pagination__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pagination */ "./lib/assets/scripts/opera-components/pagination.js");
-/* harmony import */ var _password_input__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./password-input */ "./lib/assets/scripts/opera-components/password-input.js");
-/* harmony import */ var _radio__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./radio */ "./lib/assets/scripts/opera-components/radio.js");
-/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./select */ "./lib/assets/scripts/opera-components/select.js");
-/* harmony import */ var _spinner__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./spinner */ "./lib/assets/scripts/opera-components/spinner.js");
-/* harmony import */ var _tabs__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./tabs */ "./lib/assets/scripts/opera-components/tabs.js");
-/* harmony import */ var _tag__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./tag */ "./lib/assets/scripts/opera-components/tag.js");
-/* harmony import */ var _text_area__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./text-area */ "./lib/assets/scripts/opera-components/text-area.js");
-/* harmony import */ var _text_field__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./text-field */ "./lib/assets/scripts/opera-components/text-field.js");
-/* harmony import */ var _toast__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./toast */ "./lib/assets/scripts/opera-components/toast.js");
-/* harmony import */ var _toggle_group__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./toggle-group */ "./lib/assets/scripts/opera-components/toggle-group.js");
-/* harmony import */ var _toggle_switch__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./toggle-switch */ "./lib/assets/scripts/opera-components/toggle-switch.js");
-/* harmony import */ var _tooltip__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./tooltip */ "./lib/assets/scripts/opera-components/tooltip.js");
-/* harmony import */ var _tree_navigation__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./tree-navigation */ "./lib/assets/scripts/opera-components/tree-navigation.js");
+/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accordion */ "./src/assets/scripts/opera-components/accordion.js");
+/* harmony import */ var _breadcrumb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breadcrumb */ "./src/assets/scripts/opera-components/breadcrumb.js");
+/* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./button */ "./src/assets/scripts/opera-components/button.js");
+/* harmony import */ var _checkbox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./checkbox */ "./src/assets/scripts/opera-components/checkbox.js");
+/* harmony import */ var _content_navigation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./content-navigation */ "./src/assets/scripts/opera-components/content-navigation.js");
+/* harmony import */ var _date_picker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./date-picker */ "./src/assets/scripts/opera-components/date-picker.js");
+/* harmony import */ var _chip__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./chip */ "./src/assets/scripts/opera-components/chip.js");
+/* harmony import */ var _dropdown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dropdown */ "./src/assets/scripts/opera-components/dropdown.js");
+/* harmony import */ var _fieldset__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fieldset */ "./src/assets/scripts/opera-components/fieldset.js");
+/* harmony import */ var _form__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./form */ "./src/assets/scripts/opera-components/form.js");
+/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modal */ "./src/assets/scripts/opera-components/modal.js");
+/* harmony import */ var _number_input__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./number-input */ "./src/assets/scripts/opera-components/number-input.js");
+/* harmony import */ var _overflow_menu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./overflow-menu */ "./src/assets/scripts/opera-components/overflow-menu.js");
+/* harmony import */ var _pagination__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pagination */ "./src/assets/scripts/opera-components/pagination.js");
+/* harmony import */ var _password_input__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./password-input */ "./src/assets/scripts/opera-components/password-input.js");
+/* harmony import */ var _radio__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./radio */ "./src/assets/scripts/opera-components/radio.js");
+/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./select */ "./src/assets/scripts/opera-components/select.js");
+/* harmony import */ var _spinner__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./spinner */ "./src/assets/scripts/opera-components/spinner.js");
+/* harmony import */ var _tabs__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./tabs */ "./src/assets/scripts/opera-components/tabs.js");
+/* harmony import */ var _tag__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./tag */ "./src/assets/scripts/opera-components/tag.js");
+/* harmony import */ var _text_area__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./text-area */ "./src/assets/scripts/opera-components/text-area.js");
+/* harmony import */ var _text_field__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./text-field */ "./src/assets/scripts/opera-components/text-field.js");
+/* harmony import */ var _toast__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./toast */ "./src/assets/scripts/opera-components/toast.js");
+/* harmony import */ var _toggle_group__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./toggle-group */ "./src/assets/scripts/opera-components/toggle-group.js");
+/* harmony import */ var _toggle_switch__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./toggle-switch */ "./src/assets/scripts/opera-components/toggle-switch.js");
+/* harmony import */ var _tooltip__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./tooltip */ "./src/assets/scripts/opera-components/tooltip.js");
+/* harmony import */ var _tree_navigation__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./tree-navigation */ "./src/assets/scripts/opera-components/tree-navigation.js");
 
 
 
@@ -167,9 +167,9 @@ function uiInstance(node, component) {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/accordion.js":
+/***/ "./src/assets/scripts/opera-components/accordion.js":
 /*!**********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/accordion.js ***!
+  !*** ./src/assets/scripts/opera-components/accordion.js ***!
   \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -178,7 +178,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Accordion extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -286,9 +286,9 @@ class Accordion extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] 
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/base-component.js":
+/***/ "./src/assets/scripts/opera-components/base-component.js":
 /*!***************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/base-component.js ***!
+  !*** ./src/assets/scripts/opera-components/base-component.js ***!
   \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -312,9 +312,9 @@ class BaseComponent {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/breadcrumb.js":
+/***/ "./src/assets/scripts/opera-components/breadcrumb.js":
 /*!***********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/breadcrumb.js ***!
+  !*** ./src/assets/scripts/opera-components/breadcrumb.js ***!
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -323,9 +323,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _overflow_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./overflow-menu */ "./lib/assets/scripts/opera-components/overflow-menu.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _overflow_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./overflow-menu */ "./src/assets/scripts/opera-components/overflow-menu.js");
 
 
 
@@ -413,9 +413,9 @@ class Breadcrumb extends _base_component__WEBPACK_IMPORTED_MODULE_1__["default"]
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/button.js":
+/***/ "./src/assets/scripts/opera-components/button.js":
 /*!*******************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/button.js ***!
+  !*** ./src/assets/scripts/opera-components/button.js ***!
   \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -424,7 +424,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Button extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -453,9 +453,9 @@ class Button extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/checkbox.js":
+/***/ "./src/assets/scripts/opera-components/checkbox.js":
 /*!*********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/checkbox.js ***!
+  !*** ./src/assets/scripts/opera-components/checkbox.js ***!
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -464,7 +464,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Checkbox extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -583,9 +583,9 @@ class Checkbox extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/chip.js":
+/***/ "./src/assets/scripts/opera-components/chip.js":
 /*!*****************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/chip.js ***!
+  !*** ./src/assets/scripts/opera-components/chip.js ***!
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -594,7 +594,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Chip extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -634,9 +634,9 @@ class Chip extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/contained-label.js":
+/***/ "./src/assets/scripts/opera-components/contained-label.js":
 /*!****************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/contained-label.js ***!
+  !*** ./src/assets/scripts/opera-components/contained-label.js ***!
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -645,7 +645,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ ContainedLabel)
 /* harmony export */ });
-/* harmony import */ var _spinner__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./spinner */ "./lib/assets/scripts/opera-components/spinner.js");
+/* harmony import */ var _spinner__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./spinner */ "./src/assets/scripts/opera-components/spinner.js");
 
 
 class ContainedLabel {
@@ -711,9 +711,9 @@ class ContainedLabel {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/content-navigation.js":
+/***/ "./src/assets/scripts/opera-components/content-navigation.js":
 /*!*******************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/content-navigation.js ***!
+  !*** ./src/assets/scripts/opera-components/content-navigation.js ***!
   \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -723,7 +723,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var prettier__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prettier */ "./node_modules/prettier/standalone.mjs");
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 
@@ -810,9 +810,9 @@ class ContentNavigation extends _base_component__WEBPACK_IMPORTED_MODULE_1__["de
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/date-picker.js":
+/***/ "./src/assets/scripts/opera-components/date-picker.js":
 /*!************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/date-picker.js ***!
+  !*** ./src/assets/scripts/opera-components/date-picker.js ***!
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -821,8 +821,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./lib/assets/scripts/opera-components/contained-label.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./src/assets/scripts/opera-components/contained-label.js");
 /* harmony import */ var flatpickr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! flatpickr */ "./node_modules/flatpickr/dist/esm/index.js");
 /* harmony import */ var flatpickr_dist_plugins_rangePlugin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! flatpickr/dist/plugins/rangePlugin */ "./node_modules/flatpickr/dist/plugins/rangePlugin.js");
 /* harmony import */ var flatpickr_dist_plugins_rangePlugin__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(flatpickr_dist_plugins_rangePlugin__WEBPACK_IMPORTED_MODULE_3__);
@@ -959,9 +959,9 @@ class DatePicker extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"]
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/dropdown.js":
+/***/ "./src/assets/scripts/opera-components/dropdown.js":
 /*!*********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/dropdown.js ***!
+  !*** ./src/assets/scripts/opera-components/dropdown.js ***!
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -970,8 +970,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _instance__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_instance */ "./lib/assets/scripts/opera-components/_instance.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _instance__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_instance */ "./src/assets/scripts/opera-components/_instance.js");
 
 
 
@@ -1337,9 +1337,9 @@ class Dropdown extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/fieldset.js":
+/***/ "./src/assets/scripts/opera-components/fieldset.js":
 /*!*********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/fieldset.js ***!
+  !*** ./src/assets/scripts/opera-components/fieldset.js ***!
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1348,7 +1348,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Fieldset extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -1377,9 +1377,9 @@ class Fieldset extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/form.js":
+/***/ "./src/assets/scripts/opera-components/form.js":
 /*!*****************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/form.js ***!
+  !*** ./src/assets/scripts/opera-components/form.js ***!
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1388,13 +1388,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./select */ "./lib/assets/scripts/opera-components/select.js");
-/* harmony import */ var _text_field__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./text-field */ "./lib/assets/scripts/opera-components/text-field.js");
-/* harmony import */ var _text_area__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./text-area */ "./lib/assets/scripts/opera-components/text-area.js");
-/* harmony import */ var _checkbox__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./checkbox */ "./lib/assets/scripts/opera-components/checkbox.js");
-/* harmony import */ var _radio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./radio */ "./lib/assets/scripts/opera-components/radio.js");
-/* harmony import */ var _fieldset__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fieldset */ "./lib/assets/scripts/opera-components/fieldset.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./select */ "./src/assets/scripts/opera-components/select.js");
+/* harmony import */ var _text_field__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./text-field */ "./src/assets/scripts/opera-components/text-field.js");
+/* harmony import */ var _text_area__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./text-area */ "./src/assets/scripts/opera-components/text-area.js");
+/* harmony import */ var _checkbox__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./checkbox */ "./src/assets/scripts/opera-components/checkbox.js");
+/* harmony import */ var _radio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./radio */ "./src/assets/scripts/opera-components/radio.js");
+/* harmony import */ var _fieldset__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./fieldset */ "./src/assets/scripts/opera-components/fieldset.js");
 
 
 
@@ -1448,9 +1448,9 @@ class Form extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/modal.js":
+/***/ "./src/assets/scripts/opera-components/modal.js":
 /*!******************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/modal.js ***!
+  !*** ./src/assets/scripts/opera-components/modal.js ***!
   \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1459,8 +1459,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 
@@ -1537,9 +1537,9 @@ class Modal extends _base_component__WEBPACK_IMPORTED_MODULE_1__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/number-input.js":
+/***/ "./src/assets/scripts/opera-components/number-input.js":
 /*!*************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/number-input.js ***!
+  !*** ./src/assets/scripts/opera-components/number-input.js ***!
   \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1548,8 +1548,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./lib/assets/scripts/opera-components/contained-label.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./src/assets/scripts/opera-components/contained-label.js");
 
 
 
@@ -1764,9 +1764,9 @@ class NumberInput extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/overflow-menu.js":
+/***/ "./src/assets/scripts/opera-components/overflow-menu.js":
 /*!**************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/overflow-menu.js ***!
+  !*** ./src/assets/scripts/opera-components/overflow-menu.js ***!
   \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1775,8 +1775,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
 
 
 
@@ -1896,9 +1896,9 @@ class OverflowMenu extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/pagination.js":
+/***/ "./src/assets/scripts/opera-components/pagination.js":
 /*!***********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/pagination.js ***!
+  !*** ./src/assets/scripts/opera-components/pagination.js ***!
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1907,9 +1907,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _overflow_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./overflow-menu */ "./lib/assets/scripts/opera-components/overflow-menu.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _overflow_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./overflow-menu */ "./src/assets/scripts/opera-components/overflow-menu.js");
 
 
 
@@ -2256,9 +2256,9 @@ class Pagination extends _base_component__WEBPACK_IMPORTED_MODULE_1__["default"]
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/password-input.js":
+/***/ "./src/assets/scripts/opera-components/password-input.js":
 /*!***************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/password-input.js ***!
+  !*** ./src/assets/scripts/opera-components/password-input.js ***!
   \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2267,8 +2267,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./lib/assets/scripts/opera-components/contained-label.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./src/assets/scripts/opera-components/contained-label.js");
 
 
 
@@ -2434,9 +2434,9 @@ class PasswordInput extends _base_component__WEBPACK_IMPORTED_MODULE_0__["defaul
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/radio.js":
+/***/ "./src/assets/scripts/opera-components/radio.js":
 /*!******************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/radio.js ***!
+  !*** ./src/assets/scripts/opera-components/radio.js ***!
   \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2445,7 +2445,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Radio extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -2477,9 +2477,9 @@ class Radio extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/select.js":
+/***/ "./src/assets/scripts/opera-components/select.js":
 /*!*******************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/select.js ***!
+  !*** ./src/assets/scripts/opera-components/select.js ***!
   \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2488,8 +2488,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./lib/assets/scripts/opera-components/contained-label.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./src/assets/scripts/opera-components/contained-label.js");
 
 
 
@@ -2619,9 +2619,9 @@ class Select extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/spinner.js":
+/***/ "./src/assets/scripts/opera-components/spinner.js":
 /*!********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/spinner.js ***!
+  !*** ./src/assets/scripts/opera-components/spinner.js ***!
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2630,7 +2630,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Spinner extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -2749,9 +2749,9 @@ class Spinner extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/tabs.js":
+/***/ "./src/assets/scripts/opera-components/tabs.js":
 /*!*****************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/tabs.js ***!
+  !*** ./src/assets/scripts/opera-components/tabs.js ***!
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2760,7 +2760,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Tabs extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -2830,9 +2830,9 @@ class Tabs extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/tag.js":
+/***/ "./src/assets/scripts/opera-components/tag.js":
 /*!****************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/tag.js ***!
+  !*** ./src/assets/scripts/opera-components/tag.js ***!
   \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2841,7 +2841,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class Tag extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -2887,9 +2887,9 @@ class Tag extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/text-area.js":
+/***/ "./src/assets/scripts/opera-components/text-area.js":
 /*!**********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/text-area.js ***!
+  !*** ./src/assets/scripts/opera-components/text-area.js ***!
   \**********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2898,7 +2898,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class TextArea extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -2983,9 +2983,9 @@ class TextArea extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/text-field.js":
+/***/ "./src/assets/scripts/opera-components/text-field.js":
 /*!***********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/text-field.js ***!
+  !*** ./src/assets/scripts/opera-components/text-field.js ***!
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2994,8 +2994,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./lib/assets/scripts/opera-components/contained-label.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _contained_label__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contained-label */ "./src/assets/scripts/opera-components/contained-label.js");
 
 
 
@@ -3130,9 +3130,9 @@ class TextField extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] 
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/toast.js":
+/***/ "./src/assets/scripts/opera-components/toast.js":
 /*!******************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/toast.js ***!
+  !*** ./src/assets/scripts/opera-components/toast.js ***!
   \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3142,8 +3142,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   createToast: () => (/* binding */ createToast),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 
@@ -3299,9 +3299,9 @@ const createToast = (config) => {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/toggle-group.js":
+/***/ "./src/assets/scripts/opera-components/toggle-group.js":
 /*!*************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/toggle-group.js ***!
+  !*** ./src/assets/scripts/opera-components/toggle-group.js ***!
   \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3310,8 +3310,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 
@@ -3470,9 +3470,9 @@ class ToggleGroup extends _base_component__WEBPACK_IMPORTED_MODULE_1__["default"
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/toggle-switch.js":
+/***/ "./src/assets/scripts/opera-components/toggle-switch.js":
 /*!**************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/toggle-switch.js ***!
+  !*** ./src/assets/scripts/opera-components/toggle-switch.js ***!
   \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3481,7 +3481,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class ToggleSwitch extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -3526,9 +3526,9 @@ class ToggleSwitch extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/tooltip.js":
+/***/ "./src/assets/scripts/opera-components/tooltip.js":
 /*!********************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/tooltip.js ***!
+  !*** ./src/assets/scripts/opera-components/tooltip.js ***!
   \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3538,10 +3538,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   createTooltip: () => (/* binding */ createTooltip),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
-/* harmony import */ var _utils_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/debounce */ "./lib/assets/scripts/utils/debounce.js");
-/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./lib/assets/scripts/utils/convertDataToObject.js");
-/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/helpers */ "./lib/assets/scripts/utils/helpers.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _utils_debounce__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/debounce */ "./src/assets/scripts/utils/debounce.js");
+/* harmony import */ var _utils_convertDataToObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/convertDataToObject */ "./src/assets/scripts/utils/convertDataToObject.js");
+/* harmony import */ var _utils_helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/helpers */ "./src/assets/scripts/utils/helpers.js");
 
 
 
@@ -3954,9 +3954,9 @@ const createTooltip = (
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/opera-components/tree-navigation.js":
+/***/ "./src/assets/scripts/opera-components/tree-navigation.js":
 /*!****************************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/tree-navigation.js ***!
+  !*** ./src/assets/scripts/opera-components/tree-navigation.js ***!
   \****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -3965,7 +3965,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./lib/assets/scripts/opera-components/base-component.js");
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/assets/scripts/opera-components/base-component.js");
 
 
 class TreeNavigation extends _base_component__WEBPACK_IMPORTED_MODULE_0__["default"] {
@@ -4041,9 +4041,9 @@ class TreeNavigation extends _base_component__WEBPACK_IMPORTED_MODULE_0__["defau
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/utils/convertDataToObject.js":
+/***/ "./src/assets/scripts/utils/convertDataToObject.js":
 /*!*********************************************************!*\
-  !*** ./lib/assets/scripts/utils/convertDataToObject.js ***!
+  !*** ./src/assets/scripts/utils/convertDataToObject.js ***!
   \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -4072,9 +4072,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/utils/debounce.js":
+/***/ "./src/assets/scripts/utils/debounce.js":
 /*!**********************************************!*\
-  !*** ./lib/assets/scripts/utils/debounce.js ***!
+  !*** ./src/assets/scripts/utils/debounce.js ***!
   \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -4107,9 +4107,9 @@ const debounce = (func, delay) => {
 
 /***/ }),
 
-/***/ "./lib/assets/scripts/utils/helpers.js":
+/***/ "./src/assets/scripts/utils/helpers.js":
 /*!*********************************************!*\
-  !*** ./lib/assets/scripts/utils/helpers.js ***!
+  !*** ./src/assets/scripts/utils/helpers.js ***!
   \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -7246,11 +7246,11 @@ var __webpack_exports__ = {};
 (() => {
 "use strict";
 /*!******************************************************!*\
-  !*** ./lib/assets/scripts/opera-components/index.js ***!
+  !*** ./src/assets/scripts/opera-components/index.js ***!
   \******************************************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _global_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_global.js */ "./lib/assets/scripts/opera-components/_global.js");
-/* harmony import */ var _instance__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_instance */ "./lib/assets/scripts/opera-components/_instance.js");
+/* harmony import */ var _global_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_global.js */ "./src/assets/scripts/opera-components/_global.js");
+/* harmony import */ var _instance__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_instance */ "./src/assets/scripts/opera-components/_instance.js");
 
 
 

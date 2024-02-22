@@ -1,2 +1,0 @@
-# Color Usage
-## Write usage

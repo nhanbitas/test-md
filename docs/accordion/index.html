@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<script type="application/json">
+{
+    "component": "Accordion", 
+    "description": "This is a Accordion", 
+    "tabs": ["Variants", "Usage", "Dev"],
+    "currentTab": "Variants"
+}
+</script>
+<script src="./assets/fucnDemo.js"></script>
+<script src="../../src/assets/scripts/docs-components/generateHtml.js"></script>
+<noscript>
+# Header
+Welcome to my site
+- Item 1
+- Item 2
+- Item 3
+
+
+### Example
+
+<div>
+    <div data-tabs class="tabs contained">
+        <div class="tabs-nav tabs-md">
+            <button type="button" class="tab-button">First tab</button>
+            <button type="button" class="tab-button">Second tab</button>
+            <button type="button" class="tab-button">Third tab</button>
+        </div>
+        <div class="tabs-body">
+            <div class="tab-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+            <div class="tab-content hidden">
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+            </p>
+            </div>
+            <div class="tab-content hidden">
+            <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                id est laborum.
+            </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+## Example
+
+<div data-heading="Types">
+    <div class="px-6 py-3">
+        <h2 class="text-heading-03 text-gray-900">Types</h2>
+    </div>
+    <div class="mb-6 flex flex-col gap-4 px-6">
+        <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+        <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+            <span class="badge green">Online</span>
+        </div>
+        <div data-info-pane>
+            <h2 class="text-heading-01">Text-only</h2>
+        </div>
+        </div>
+
+        <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+        <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+            <span class="badge green dotted">Online</span>
+        </div>
+        <div data-info-pane>
+            <h2 class="text-heading-01">Dotted</h2>
+        </div>
+        </div>
+
+        <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+        <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+            <span class="badge green"><i class="far fa-server-05 h-4 w-4"></i>Online</span>
+        </div>
+        <div data-info-pane>
+            <h2 class="text-heading-01">With icon</h2>
+        </div>
+        </div>
+    </div>
+</div>
+## Example
+
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+      <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+      >
+      <script>
+        const createAccount = () => {
+          //call api create account...
+
+          //show toast
+          const configActionToast = {
+            type: 'success',
+            title: 'Create account successful',
+            duration: 4000,
+            message: 'Your account was created successful',
+            details: '<a class="text-blue-500" href="#">Go to login</a>',
+          };
+          const newToast = Opera.createToast(configActionToast);
+          newToast.show();
+        };
+      </script>
+
+      <button class="btn success" onclick="createAccount()">Create account</button>
+      </div>
+      <div data-info-pane>
+        <h2 class="text-heading-01">Example</h2>
+      </div>
+    </div>
+  </div>
+
+## Example
+<div data-heading="Auto display">
+    <div class="px-6 py-3">
+      <h2 class="text-heading-03 text-gray-900">Auto display</h2>
+    </div>
+    <div class="mb-6 flex flex-col gap-4 px-6">
+      <!-- Basic -->
+      <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+        <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+          <ul class="breadcrumb" data-breadcrumb="maxItem:4">
+            <li class="breadcrumb-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Products</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Man</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Sneakers</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Size 43</a>
+            </li>
+          </ul>
+        </div>
+        <div data-info-pane>
+          <h2 class="text-heading-01">Basic</h2>
+        </div>
+      </div>
+      <!-- Example -->
+      <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+        <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+          <ul class="breadcrumb slash" data-breadcrumb="maxItem:5">
+            <li class="breadcrumb-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Products</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Man</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Sneakers</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Size 43</a>
+            </li>
+          </ul>
+        </div>
+        <div data-info-pane>
+          <h2 class="text-heading-01">Example</h2>
+        </div>
+      </div>
+      <!-- Example -->
+      <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+        <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+          <ul class="breadcrumb" data-breadcrumb="maxItem:2">
+            <li class="breadcrumb-item">
+              <a href="#"><i class="far fa-home-02"></i>Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#"><i class="far fa-grid-01"></i>Products</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#"><i class="far fa-shoe-02"></i>Sneakers</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Size 43</a>
+            </li>
+          </ul>
+        </div>
+        <div data-info-pane>
+          <h2 class="text-heading-01">Example</h2>
+        </div>
+      </div>
+    </div>
+</div>
+## Example
+
+
+| State | Description | Control |
+| ---- | ---- | ---- |
+| **Hidden** | The component is not visible and does not take up space. |  |
+| **Shown** | The hidden component is made visible. |  |
+| **Collapsed** | The component takes on a minimized form which hides underlying information or details. |  |
+| **Expanded** | The component takes on a maximized form which shows underlying information or details. |  |
+| **Plaintext** | The component's input or display string has all of its original characters visible. | For password inputs, all characters are plaintext when<br>`HTMLInputElement.type` is equal to `'text'` |
+| **Masked** | The component's input or display string has some or all of its original characters replaced by masking characters. | For password inputs, all characters are masked when<br>`HTMLInputElement.type` is equal to `'password'`<br> |
+    
