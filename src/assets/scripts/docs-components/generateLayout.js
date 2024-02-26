@@ -1,10 +1,10 @@
-const jsonDataElement = document.querySelector('script[type="application/json"]');
-
 const validate = (dataObject) => {
   const whiteList = ["component", "description", "tabs", "currentTab"];
 
   const checkKeysInWhiteList = (dataObject, whiteList) => {
-    const isInWhiteList = Object.keys(dataObject).every((key) => whiteList.includes(key));
+    const isInWhiteList = Object.keys(dataObject).every((key) =>
+      whiteList.includes(key)
+    );
     return isInWhiteList;
   };
 
@@ -13,15 +13,24 @@ const validate = (dataObject) => {
     return scriptPattern.test(input);
   };
 
-  if (!checkKeysInWhiteList(dataObject, whiteList) || containsScript(jsonDataElement.textContent)) {
+  if (
+    !checkKeysInWhiteList(dataObject, whiteList) ||
+    containsScript(dataObject.textContent)
+  ) {
     throw new Error("Invalid layout data ");
   }
 
-  if (typeof dataObject.component !== "string" || containsScript(dataObject.component)) {
+  if (
+    typeof dataObject.component !== "string" ||
+    containsScript(dataObject.component)
+  ) {
     throw new Error("Invalid layout data ");
   }
 
-  if (typeof dataObject.description !== "string" || containsScript(dataObject.description)) {
+  if (
+    typeof dataObject.description !== "string" ||
+    containsScript(dataObject.description)
+  ) {
     throw new Error("Invalid layout data ");
   }
 
@@ -56,9 +65,13 @@ const generateLayout = (dataObject) => {
     .map((tab) => {
       const href = tab.toLowerCase();
       if (href === "variants") {
-        return `<a href="./" class="tab-button ${tab === dataObject.currentTab ? "active" : ""}">${tab}</a>`;
+        return `<a href="./" class="tab-button ${
+          tab === dataObject.currentTab ? "active" : ""
+        }">${tab}</a>`;
       }
-      return `<a href="${href}.html" class="tab-button ${tab === dataObject.currentTab ? "active" : ""}">${tab}</a>`;
+      return `<a href="${href}.html" class="tab-button ${
+        tab === dataObject.currentTab ? "active" : ""
+      }">${tab}</a>`;
     })
     .join("")}
 </div>
@@ -68,20 +81,18 @@ const generateLayout = (dataObject) => {
   sharedLayout.innerHTML = htmlLayout;
   sharedLayout.classList.add("shared-layout");
   document.body.prepend(sharedLayout);
+
+  document.body.classList.add("markdown-body");
 };
 
-if (jsonDataElement) {
-  const jsonData = jsonDataElement.textContent;
-  const dataObject = JSON.parse(jsonData);
-
-  try {
+try {
+  document.addEventListener("DOMContentLoaded", () => {
+    const dataObject = document.metadata;
+    // console.log(jsonData);
     validate(dataObject);
 
-    document.addEventListener("DOMContentLoaded", () => {
-      generateLayout(dataObject);
-      jsonDataElement.remove();
-    });
-  } catch (error) {
-    console.log(error)
-  }
+    generateLayout(dataObject);
+  });
+} catch (error) {
+  console.log(error);
 }

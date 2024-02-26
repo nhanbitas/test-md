@@ -1,26 +1,23 @@
-
 <!DOCTYPE html>
-<script type="application/json">
-{
-    "component": "Accordion", 
-    "description": "This is a Accordion", 
-    "tabs": ["Variants", "Usage", "Dev"],
-    "currentTab": "Variants"
-}
-</script>
 <script src="./assets/fucnDemo.js"></script>
 <script src="../../src/assets/scripts/docs-components/generateHtml.js"></script>
 <noscript>
+---
+component: Accordion
+description: This is a Accordion
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
 # Header
 Welcome to my site
 - Item 1
 - Item 2
 - Item 3
 
-
 ### Example
 
-<div>
+<div class="scoped">
     <div data-tabs class="tabs contained">
         <div class="tabs-nav tabs-md">
             <button type="button" class="tab-button">First tab</button>
@@ -52,7 +49,7 @@ Welcome to my site
 
 ## Example
 
-<div data-heading="Types">
+<div class="scoped" data-heading="Types">
     <div class="px-6 py-3">
         <h2 class="text-heading-03 text-gray-900">Types</h2>
     </div>
@@ -87,7 +84,7 @@ Welcome to my site
 </div>
 ## Example
 
-<div class="mb-6 flex flex-col gap-4 px-6">
+<div class="scoped" class="mb-6 flex flex-col gap-4 px-6">
     <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
       <div
         data-demo-pane="auto"
@@ -119,7 +116,7 @@ Welcome to my site
   </div>
 
 ## Example
-<div data-heading="Auto display">
+<div class="scoped" data-heading="Auto display">
     <div class="px-6 py-3">
       <h2 class="text-heading-03 text-gray-900">Auto display</h2>
     </div>
